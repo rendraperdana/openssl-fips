@@ -207,7 +207,7 @@ d1_srvr.o: ../include/openssl/ssl2.h ../include/openssl/ssl23.h
 d1_srvr.o: ../include/openssl/ssl3.h ../include/openssl/stack.h
 d1_srvr.o: ../include/openssl/tls1.h ../include/openssl/x509.h
 d1_srvr.o: ../include/openssl/x509_vfy.h d1_srvr.c ssl_locl.h
-kssl.o: ../include/openssl/asn1.h ../include/openssl/bio.h
+kssl.o: ../crypto/o_time.h ../include/openssl/asn1.h ../include/openssl/bio.h
 kssl.o: ../include/openssl/comp.h ../include/openssl/dtls1.h
 kssl.o: ../include/openssl/krb5_asn.h ../include/openssl/kssl.h
 kssl.o: ../include/openssl/lhash.h ../include/openssl/obj_mac.h

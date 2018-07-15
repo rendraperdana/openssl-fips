@@ -151,7 +151,8 @@ ts_rsp_sign.o: ../../include/openssl/obj_mac.h ../../include/openssl/objects.h
 ts_rsp_sign.o: ../../include/openssl/pkcs7.h ../../include/openssl/safestack.h
 ts_rsp_sign.o: ../../include/openssl/stack.h ../../include/openssl/ts.h
 ts_rsp_sign.o: ../../include/openssl/x509.h ../../include/openssl/x509_vfy.h
-ts_rsp_sign.o: ../../include/openssl/x509v3.h ../cryptlib.h ts_rsp_sign.c
+ts_rsp_sign.o: ../../include/openssl/x509v3.h ../cryptlib.h ../o_time.h
+ts_rsp_sign.o: ts_rsp_sign.c
 ts_rsp_utils.o: ../../e_os.h ../../include/openssl/asn1.h
 ts_rsp_utils.o: ../../include/openssl/bio.h ../../include/openssl/conf.h
 ts_rsp_utils.o: ../../include/openssl/err.h ../../include/openssl/lhash.h
